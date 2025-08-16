@@ -1,0 +1,71 @@
+<!-- menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Campus Bites | Menu</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Campus Bites</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="menu-section">
+    <h1>Our Menu</h1>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="sand.jpg" alt="Veg Burger" class="veg">
+        <h3>Veg Sandwich</h3>
+        <p>₹70</p>
+        <button onclick="addToCart('Veg Sandwich', 40)">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="veg.png" alt="" class="chick">
+        <h3>Chicken Burger</h3>
+        <p>₹70</p>
+        <button onclick="addToCart('Chicken Burger', 70)">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="fries.avif" alt="" class="fries">
+        <h3>French Fries</h3>
+        <p>₹35</p>
+        <button onclick="addToCart('French Fries', 35)">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="cof.png" alt="" class="Coffee">
+        <h3>Cold Coffee</h3>
+        <p>₹50</p>
+        <button onclick="addToCart('Cold Coffee', 50)">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="sam.jpg" alt="" class="sam">
+        <h3>Samosa</h3>
+        <p>₹20</p>
+        <button onclick="addToCart('Samosa',20)">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="thum.jpg" alt="" class="tum">
+        <h3>Thumbs up </h3>
+        <p>₹25</p>
+        <button onclick="addToCart('Thumbs up',12)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Campus Bites. All rights reserved.</p>
+  </footer>
+</body>
+</html>
